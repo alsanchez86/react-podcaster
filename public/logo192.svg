@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <style>
+    .icon { stroke-width: 6; fill: none; stroke-linecap: round; }
+    .lupa { stroke: #3B82F6; }
+    .ondas { stroke: #7C3AED; }
+  </style>
+  <rect width="192" height="192" fill="white" />
+  <circle class="icon lupa" cx="80" cy="80" r="30" />
+  <line class="icon lupa" x1="100" y1="100" x2="130" y2="130" />
+  <path class="icon ondas" d="M150 60 Q160 80 150 100" />
+  <path class="icon ondas" d="M160 50 Q175 80 160 110" />
+  <path class="icon ondas" d="M170 40 Q190 80 170 120" />
+</svg>
