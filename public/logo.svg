@@ -1,0 +1,12 @@
+<svg width="300" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" fill="none">
+  <style>
+    .text { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; fill: #3B82F6; }
+    .icon { stroke: #7C3AED; stroke-width: 3; fill: none; }
+  </style>
+  <circle class="icon" cx="30" cy="30" r="15" />
+  <line class="icon" x1="42" y1="42" x2="55" y2="55" />
+  <path class="icon" d="M80 20 Q90 30 80 40" />
+  <path class="icon" d="M88 15 Q100 30 88 45" />
+  <path class="icon" d="M95 10 Q110 30 95 50" />
+  <text x="130" y="38" class="text">Podcaster</text>
+</svg>
