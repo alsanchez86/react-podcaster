@@ -1,0 +1,15 @@
+import React from 'react';
+import { render, screen, cleanup } from '@testing-library/react';
+import App from 'App';
+
+afterEach(() => {
+  cleanup();
+});
+
+test('01 - GIVEN a user accessing the application WHEN the rendering process completes successfully THEN the user will be able to see the main title', () => {
+  render(<App />);
+
+  const titleElement = screen.getByText(/Podcaster/i);
+
+  expect(titleElement).toBeInTheDocument();
+});
