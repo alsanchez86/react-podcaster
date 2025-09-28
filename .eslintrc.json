@@ -45,7 +45,7 @@
       "warn",
       {
         "selector": ["variableLike", "classProperty", "function"],
-        "format": ["camelCase"],
+        "format": ["camelCase", "PascalCase"],
         "leadingUnderscore": "allow",
         "trailingUnderscore": "allow"
       },
